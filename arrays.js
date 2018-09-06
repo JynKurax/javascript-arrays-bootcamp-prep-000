@@ -17,14 +17,16 @@ function addElementToEndOfArray(array, element){
 
 function destructivelyAddElementToEndOfArray(array, element){
     array.push("element")
-    return ...array
+    return array
 }
 
 function accessElementInArray(array, index){
   return array['index']
 }
 
-function destructivelyRemoveElementFromBeginningOfArray(array)
+function destructivelyRemoveElementFromBeginningOfArray(array){
+  
+}
 
 function removeElementFromBeginningOfArray(array){
   return array.slice()
